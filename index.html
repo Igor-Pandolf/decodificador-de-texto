@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Decodificador</title>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <header></header>
+    <main class="apresentacao">
+      <section class="apresentacao__conteudo">
+        <h1 class="apresentacao__titulo">
+          Bem vindo(a) ao Decodificador de Texto
+        </h1>
+        <textarea
+          name="textCriptografia"
+          id="textCriptografia"
+          class="caixaTexto"
+          cols="94"
+          rows="2"
+          placeholder="Digite seu texto aqui"
+        ></textarea>
+        <div class="apresentacao__conteudo__botoes">
+          <button onclick="criptografar()" class="Btns">Criptografar!</button>
+          <button onclick="descriptografar()" class="Btns">
+            Descriptografar!
+          </button>
+        </div>
+
+        <div class="apresentacao__conteudo__criptografado">
+          <textarea
+            name="criptografado"
+            id="criptografado"
+            class="caixaTexto"
+            cols="94"
+            rows="2"
+            placeholder="Nenhum texto inserido ainda"
+          ></textarea>
+          <div>
+            <button onclick="copiarTexto()" id="copyBtn" class="Btns">
+              Copiar
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- <footer class="rodape">
+      <p>Desenvolvido por Igor Pandolf.</p>
+    </footer> -->
+
+    <script src="app.js" defer></script>
+  </body>
+</html>

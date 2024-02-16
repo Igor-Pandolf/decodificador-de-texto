@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  min-height: 100%;
+  background-image: url(../assets/Home\ page.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.apresentacao {
+  display: flex;
+  justify-content: center;
+  margin: 23.25rem 28.938rem 19.313rem 16.063rem;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 60px;
+  color: #fff;
+}
+
+.caixaTexto {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  margin-top: 1.188rem;
+  background-color: rgba(95, 61, 196, 0.4);
+  color: #b197fc;
+  border-radius: 10px;
+}
+
+.Btns {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  background-color: #845ef7;
+  color: #fff;
+  border-radius: 10px;
+  border-style: none;
+  width: 106px;
+  height: 26px;
+  margin: 8px 9px 0 0;
+}
+
+.Btns:hover {
+  background-color: rgba(95, 61, 196, 0.4);
+  color: #b197fc;
+}
